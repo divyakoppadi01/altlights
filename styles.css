@@ -1,0 +1,792 @@
+
+#livin
+{
+    width: 100%;
+    height: 90%;
+    background-image: url("https://media.istockphoto.com/id/828457564/photo/blue-living-room.jpg?s=612x612&w=0&k=20&c=6l3QAEYyjPBPUpqrK5dFV3M94V7lJyM40DHpeWGA_eM=");
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+/* #livin:hover
+{
+    opacity:0.8;
+} */
+#nav
+{
+    width: 100%;
+    height: 20%;
+    background-color: gray;
+    opacity: 0.6;
+    /* position: fixed; */
+}
+#opts
+{
+    width: 90%;
+    height: 97%;
+    /* background-color: green; */
+    position: absolute;
+    left:80px;
+    border-bottom: 5px solid snow;
+}
+#log
+{
+    width: 150px;
+    height:120px;
+    /* background-color: pink; */
+    float:left;
+    background-image: url("../Images/alt_logo-removebg-preview.png");
+    background-size: 100% 100%;
+}
+#opt
+{
+    width: 45%;
+    height: 19%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#opt1
+{
+    width: 20%;
+    height: 90%;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    color:snow;
+    font-size: 20px;
+}
+#opt1:hover{
+    border-bottom: 5px solid red;
+    transition: al 2s;
+}
+#opt_home
+{
+    width: 20%;
+    height: 90%;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    color:snow;
+    font-size: 20px;
+    /* border-bottom: 5px solid red; */
+}
+#opt_home:hover
+{
+    border-bottom: 5px solid red;
+}
+#hid
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: gray;
+}
+@media screen and (max-width:500px)
+{
+    #opt
+    {
+        display: none;
+    }
+    #list
+    {
+        display: block;
+    }
+}
+#list
+{
+    float:right;
+    width: 60px;
+    height: 60px;
+    font-size:30px;
+    margin-top:-5%;
+    margin-right:5%; 
+    color:white;
+    /* display: none; */
+}
+#opt_div
+{
+    width: 0%;
+    height: 300px;
+    background-color: black;
+    margin-left:90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color:transparent;
+    float: right;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+#d1
+{
+    padding: 10px 30px;
+    font-size: 25px;
+    /* display: none; */
+    /* text-shadow: 0px 0px 1px snow; */
+}
+#d1:hover
+{
+    text-shadow: 0px 0px 2px snow;
+    cursor: pointer;
+}
+#embrace
+{
+    width: 35%;
+    height: 25%;
+    /* background-color: gray; */
+    font-size:135%;
+    color:white;
+    margin-left:15%;
+    margin-top:-10%;
+}
+#lights
+{
+   margin-top:-5%;
+}
+#diverse
+{
+    width: 100%;
+    height: 43%;
+    /* background-color: skyblue; */
+    margin-top:2%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    /* position: relative; */
+}
+#exp
+{
+    font-size: 300%;
+}
+#our
+{
+    color:red;
+    font-size: 300%;
+}
+#box
+{
+    width: 100%;
+    height: 13svh;
+    /* background-color: skyblue; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:-1%;
+    
+}
+#res
+{
+    width: 140px;
+    height: 40px;
+    background-color: snow;
+    border:1px solid red;
+    border-radius:40px;
+    /* padding:10px 10px; */
+    font-size:22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#res:hover
+{
+    background-color: red;
+    color:white;
+    transition: all 0.5s;
+}
+#elevate
+{
+    width: 1095px;
+    height: 98px;
+    /* background-color: skyblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    color:gray; 
+    margin:10px 0px 10px 0px;
+    /* position: fixed; */
+}
+#images
+{
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+#img1
+{
+    width: 320px;
+    height: 42%;
+    opacity:0.5;
+} 
+#img2
+{
+    width: 300px;
+    height: 42%;
+}
+#img3
+{
+    width: 320px;
+    height: 42%;
+    /* background-color: yellow;  */
+    opacity:0.5;
+}
+#img2:hover
+{
+    width: 320px;
+    height: 44%;
+    color:red;
+    transition: all 0.5s;
+}
+#pic1
+{
+    width: 100%;
+    height: 89%;
+     background-image: url("https://altlights.com/assets/img/About/Residential/Cards_Residential_Sway.png");
+     background-size: 100% 100%;
+}
+#pic2
+{
+    width: 100%;
+    height: 89%;
+    background-image: url("https://altlights.com/assets/img/About/Residential/Cards_Residential_ERCO.png");
+     background-size: 100% 100%;
+}
+#pic3
+{
+    width: 100%;
+    height: 89%;
+    background-image: url("https://altlights.com/assets/img/About/Residential/Cards_Residential_POLO.png");
+     background-size: 100% 100%;
+}
+#name
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top:6px;
+}
+#name2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top:6px;
+}
+#icon
+{
+    display: flex;
+    margin-top:130px;
+    font-size: 40px;
+}
+@media screen and (max-width:1050px)
+{
+    #img1,#img3
+    {
+        display: none;
+    }
+}
+#client
+{
+    width: 100%;
+    height: auto;
+    /* background-color: gainsboro; */
+    /* background-image: linear-gradient(to right,gray,white); */
+    margin-top:-280px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    /* position: relative; */
+}
+#head
+{
+    display: flex;
+    justify-content: center;
+    align-items: start ;
+    font-size: 90px; 
+    margin-top: -5%;;
+}
+#c
+{
+    color: red;
+    font-family: Verdana;
+}
+#photos1
+{
+    /* width: 85%; */
+    /* height: 60%; */
+    background-color: gainsboro;
+    /* margin-top: -20%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* position: relative; */
+}
+#ph1
+{
+    width: 500px;
+    height: 300px;
+    background-color: pink;
+    border:10px solid snow;
+    background-image: url("https://www.altlights.com/assets/img/Project/Picture11.png");
+    background-size:100% 100%;
+    margin:10px 5px;
+}
+#ph2
+{
+    width: 500px;
+    height: 300px;
+    background-color: pink;
+    /* border:1px solid black; */
+    border:10px solid snow;
+    background-image: url("https://www.altlights.com/assets/img/Project/Picture21.jpg");
+    background-size:100% 100%;
+    margin:10px 5px;
+}
+#ph3
+{
+    width: 500px;
+    height: 300px;
+    background-color: pink;
+    border:10px solid snow;
+    /* border:1px solid black; */
+    background-image: url("https://www.altlights.com/assets/img/Project/Picture31.jpg");
+    background-size:100% 100%;
+    margin:10px 5px;
+}
+#ph4
+{
+    width: 500px;
+    height: 300px;
+    background-color: pink;
+    border:10px solid snow;
+    /* border:1px solid black; */
+    background-image: url("https://www.altlights.com/assets/img/Project/Picture41.jpg");
+    background-size:100% 100%;
+    margin:10px 5px;
+}
+#ph5
+{
+    width: 500px;
+    height: 300px;
+    background-color: pink;
+    border:10px solid snow;
+    /* border:1px solid black; */
+    background-image: url("https://www.altlights.com/assets/img/Project/Picture51.jpg");
+    background-size:100% 100%;
+    margin:10px 5px;
+}
+
+#move
+{
+    width: 100%;
+    height: 70svh;
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#white
+{
+    width: 1300px;
+    height: fit-content;
+    background-color: rgb(245, 245, 245);
+    margin:auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+} 
+#four
+{
+    width: 78%;
+    height: 8svh;
+    background-color: rgb(235, 235, 235);
+    /* background-color: gray; */
+    margin-top: 2%;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:0%;
+    /* display: flex; */
+    justify-content: start;
+    align-items: center;
+    /* margin-left:3%; */
+}
+#story
+{
+   width: 24%;
+   height: 100%;
+   /* background-color: gray;
+   border:1px solid black; */
+   border-radius:40px;
+   margin-left: 2%;
+   /* justify-content: end;
+    align-items: center; */
+}
+#values
+{
+    width: 24%;
+    height: 100%;
+    /* background-color: gray;
+    border:1px solid black; */
+   border-radius:40px;
+
+}
+#vision
+{
+    width: 24%;
+   height: 100%;
+   /* background-color: gray;
+   border:1px solid black; */
+   border-radius:40px;
+
+}
+#pillars
+{
+    width: 24%;
+    height: 100%;
+    /* background-color: gray;
+    border:1px solid black; */
+   border-radius:40px;
+
+}
+#bomma
+{
+    width: 30%;
+    height: 100%;
+    /* background-color: pink; */
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    float: left;
+}
+#val
+{
+    width: 70%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    font-size: 18px;
+}
+#story:hover
+{
+   color:white;
+   background-color: red;
+}
+#values:hover
+{
+   color:white;
+   background-color: red;
+   /* transition: ; */
+}
+#vision:hover
+{
+   color:white;
+   background-color: red;
+}
+#pillars:hover
+{
+   color:white;
+   background-color: red;
+}
+@media screen and (max-width:500px)
+{
+   #val
+   {
+    display: none;
+   }
+}
+
+#matter
+{
+    width: 95%;
+    height: 80%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    /* margin-top: 150px; */
+    /* border:1px solid black; */
+}
+#welcome
+{
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    font-size: 20px;
+}
+#bookd
+{
+    width: 100%;
+    height: 80svh;
+    /* background-color: gray; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* margin-top:5%; */
+}
+#book
+{
+    width: 300px;
+    height:350px;
+    background-color: gainsboro;
+    float: left;
+   /* margin-top:7%; */
+   /* margin-left:5%; */
+   border: 1px solid black;
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJBS4mStKS-0H8vfiVojzLAK1BA4Ku_NAM_oDc8zzUT0qBQZDxobn4_q5bkqBB4rLnkBo&usqp=CAU");
+   background-size: 100% 100%;
+}
+#book:hover
+{
+    /* width: 320px; */
+    height: 370pxs;
+    box-shadow: 1px 1px 10px 10px gray;
+}
+#latest
+{
+    width: 50%;
+    height: 60svh;
+    /* background-color: pink; */
+    float:right;
+    /* margin-top:5%; */
+    /* margin-right:10%;    */
+    margin-left:2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#exploring
+{
+    width: 90%;
+    height: 10svh;
+    /* background-color: gray; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+}
+#lar
+{
+    color:red;
+}
+#dis
+{
+    margin:2% 5%;
+    font-size: 120%;
+}
+#buts
+{
+    width: 90%;
+    height: 20svh;
+    /* background-color: gray; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* border:1px solid black; */
+    
+}
+#out
+{
+    width: 130px;
+    height:30px;
+    background-color: red;
+    color:white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+#sig
+{
+    width: 130px;
+    height:30px;
+    background-color:black;
+    padding: 10px 10px;
+    color:white;
+    border-radius: 10px;
+    font-size: 25px;
+}
+#pro
+{
+    width: 130px;
+    height:30px;
+    background-color: black;
+    padding: 10px 10px; 
+    color:white;
+    border-radius: 10px;
+    font-size: 25px;
+}
+#download
+{
+    width: 90%;
+    height: 7svh;
+    /* background-color: skyblue; */
+}
+#down
+{
+    width: 170px;
+    height: 50px;
+    border:3px solid red;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+#addd
+{
+    width: 100%;
+    height: 60svh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    /* flex-direction: row; */
+}
+#small
+{
+    width: 80%;
+    height: 50svh;
+    /* background-color: gray; */
+    border-bottom: 1px solid snow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#bom
+{
+    width: 130px;
+    height: 130px;
+    /* background-color: pink; */
+    background-image: url("../Images/aaaaaaaalllllllllllltttttttttttt-removebg-preview.png");
+    background-size: 100% 100%;
+    /* border:1px solid snow; */
+}
+#address
+{
+    width: 40%;
+    height: 40svh;
+    /* background-color: skyblue; */
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: start; 
+     align-items: center; 
+     color: snow;
+}
+#location
+{
+    width: 100%;
+    height: 10svh;
+    /* background-color: pink; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+#b
+{
+    width: 60px;
+    height:70px;
+    /* background-color: gray; */
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 10px; */
+}
+#sodhi
+{
+    width:70%;
+    height: 10svh;
+    /* background-color: red; */
+}
+#call
+{
+  width: 60%;
+  height: 10svh;
+  /* background-color: pink; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+}
+#sodhi2
+{
+    width: 40%;
+    height: 10svh;
+    /* background-color: red; */
+}
+#media
+{
+    width: 80%;
+    height: 10svh;
+    /* background-color: pink; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#social
+{
+    width: 150px;
+    height: 60px;
+    /* background-color: gray; */
+    font-size: 25px;
+    margin-top: 4%;
+    /* padding: 2px 2px; */
+}
+#icons
+{
+    width: 60%;
+    height: 10svh;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#con1
+{
+    width: 30px;
+    height: 30px;
+    /* background-color: gray; */
+    padding: 8px 8px;
+    font-size: 25px;
+}
+#con1:hover
+{
+    font-size: 29px;
+    transition: all 0.5s;
+}
